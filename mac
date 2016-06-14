@@ -130,7 +130,7 @@ brew "node"
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
 
-brew_tap 'caskroom/cask'
+brew tap 'caskroom/cask'
 brew tap homebrew/science
 brew_install_or_upgrade 'brew-cask'
 brew_install_or_upgrade 'ffmpeg'
